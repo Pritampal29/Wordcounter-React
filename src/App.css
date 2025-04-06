@@ -3,6 +3,10 @@
   background: #f8f9fa;
   padding: 15px 0;
 }
+
+#mobileMenu {
+  width: 270px;
+}
 .dark-mode .header,
 .dark-mode .footer {
   background: #333;
@@ -140,4 +144,58 @@
   padding: 0px 10px;
   color: #fff;
   border-radius: 6px;
+}
+
+/* Todo Page Css */
+
+.todo-box {
+  width: 100%;
+  padding: 30px 10px;
+}
+
+.todo-title {
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.date-time {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-input input {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  background: #f1f1f1;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .todo-box {
+    padding: 1.2rem;
+  }
+
+  .todo-title {
+    font-size: 1.5rem;
+  }
 }
