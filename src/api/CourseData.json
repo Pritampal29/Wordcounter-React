@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "coursename": "Data Science",
+      "description": "An intensive bootcamp to master data science concepts course including machine learning, data analysis, and visualization.",
+      "duration": "3 months",
+      "amount_in_inr": 50000,
+      "class_time": ["Morning" , "Noon"],
+      "image": "./Images/card-3.webp"
+    },
+    {
+      "id": 2,
+      "coursename": "Web Development",
+      "description": "A comprehensive course covering front-end and back-end web development, including HTML, CSS, JavaScript and more.",
+      "duration": "6 months",
+      "amount_in_inr": 70000,
+      "class_time": ["Evening" , "Morning"],
+      "image": "./Images/cardNew.webp"
+    },
+    {
+      "id": 3,
+      "coursename": "Digital Marketing",
+      "description": "Learn the fundamentals of digital marketing, SEO, social media marketing, email/social marketing and content creation.",
+      "duration": "2 months",
+      "amount_in_inr": 25000,
+      "class_time": ["Noon" , "Evening"],
+      "image": "./Images/card-4.webp"
+    },
+    {
+      "id": 4,
+      "coursename": "UI/UX Design",
+      "description": "A deep dive into the principles of user interface and user experience design, focusing on wireframing, prototyping, and design tools.",
+      "duration": "4 months",
+      "amount_in_inr": 45000,
+      "class_time": ["Morning","Noon"],
+      "image": "./Images/card-5.webp"
+    },
+    {
+      "id": 5,
+      "coursename": "Python Programming",
+      "description": "Learn Python from scratch, Django framework including variables, functions, loops, Machine Learning with AI and data structures.",
+      "duration": "1 month",
+      "amount_in_inr": 15000,
+      "class_time": ["Noon"],
+      "image": "./Images/card-3.webp"
+    },
+    {
+      "id": 6,
+      "coursename": "App Development",
+      "description": "A step-by-step course on building mobile applications for Android using Java and Kotlin, React Native and many other Technology.",
+      "duration": "5 months",
+      "amount_in_inr": 60000,
+      "class_time": ["Evening"],
+      "image": "./Images/cardNew.webp"
+    },
+    {
+      "id": 7,
+      "coursename": "Graphic Design Fundamentals",
+      "description": "Learn the basics of graphic design, including typography, color theory, and visual composition.",
+      "duration": "3 months",
+      "amount_in_inr": 35000,
+      "class_time": ["Morning"],
+      "image": "./Images/card-4.webp"
+    },
+    {
+      "id": 8,
+      "coursename": "Full Stack Web Development",
+      "description": "Master full stack development with technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+      "duration": "8 months",
+      "amount_in_inr": 90000,
+      "class_time": ["Evening","Noon"],
+      "image": "./Images/card-5.webp"
+    },
+    {
+      "id": 9,
+      "coursename": "Business Analytics with Excel",
+      "description": "Learn how to use Excel for business analytics, data analysis, and decision making.",
+      "duration": "2 months",
+      "amount_in_inr": 20000,
+      "class_time": ["Noon","Morning"],
+      "image": "./Images/card-3.webp"
+    },
+    {
+      "id": 10,
+      "coursename": "Cybersecurity Essentials",
+      "description": "Understand the basics of cybersecurity, network security, and risk management to protect against cyber threats.",
+      "duration": "4 months",
+      "amount_in_inr": 55000,
+      "class_time": ["Morning","Evening","Noon"],
+      "image": "./Images/cardNew.webp"
+    },
+    {
+      "id": 11,
+      "coursename": "Cloud Computing with AWS",
+      "description": "Learn how to design and deploy cloud applications using AWS services, covering algorithms like regression,.",
+      "duration": "6 months",
+      "amount_in_inr": 65000,
+      "class_time": ["Evening","Noon"],
+      "image": "./Images/card-4.webp"
+    },
+    {
+      "id": 12,
+      "coursename": "Machine Learning with AI",
+      "description": "An introduction to machine learning using R, covering algorithms like regression, classification, and clustering.",
+      "duration": "3 months",
+      "amount_in_inr": 45000,
+      "class_time": ["Morning","Evening","Noon"],
+      "image": "./Images/card-5.webp"
+    }
+  ]
+  
