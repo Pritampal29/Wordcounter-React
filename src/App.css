@@ -190,6 +190,19 @@
   font-size: 1rem;
 }
 
+.todo-list li p {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.todo-list li span {
+  font-size: 25px;
+}
+.todo-list li span svg {
+  margin-inline: 10px;
+}
+
 @media (max-width: 576px) {
   .todo-box {
     padding: 1.2rem;
@@ -197,5 +210,85 @@
 
   .todo-title {
     font-size: 1.5rem;
+  }
+}
+
+/* Calculator CSS */
+
+.calculator {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  width: 600px;
+}
+
+.calculator input[type="text"] {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* .buttons-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.standard-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calculator .btn {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.calculator .btn:hover {
+  background-color: #d4d4d4;
+}
+
+.calculator .operator {
+  background-color: #bb2026;
+  color: #fff;
+}
+
+.calculator .operator:hover {
+  background-color: #9d1b20;
+}
+
+.calculator .equals {
+  grid-column: span 1;
+  background-color: #00c853;
+  color: #fff;
+}
+
+.calculator .equals:hover {
+  background-color: #00b342;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 90%;
+  }
+
+  .btn {
+    padding: 16px;
+    font-size: 16px;
   }
 }

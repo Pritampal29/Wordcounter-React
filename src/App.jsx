@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import WordCounter from "./components/WordCounter";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Todos from "./components/Todos";
+import Calculator from "./components/Calculator";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/todos" element={<Todos />} />
           <Route path="/word-counter" element={<WordCounter />} />
+          <Route path="/calculator" element={<Calculator />} />
           <Route path="/courses" element={<Courses />} />
         </Routes>
         <Footer />

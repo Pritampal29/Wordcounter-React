@@ -4,7 +4,7 @@ import SingleCourses from "./SingleCourses";
 import CourseData from "../api/CourseData.json";
 
 const Home = () => {
-  const topThreeCourses = CourseData.slice(0, 6);
+  const topThreeCourses = CourseData.slice(0, 3);
   return (
     <>
       <div className="bg-primary text-white text-center py-5">
@@ -13,8 +13,14 @@ const Home = () => {
           <p className="lead">
             Empowering you with knowledge and skills for the future.
           </p>
-          <Link to="/courses" className="btn btn-light mt-3">
+          <Link to="/courses" className="btn btn-light mt-3 me-2">
             Explore Courses
+          </Link>
+          <Link to="/todos" className="btn btn-warning mt-3 me-2">
+            Todos
+          </Link>
+          <Link to="/calculator" className="btn btn-light mt-3 me-2">
+            Calculator
           </Link>
         </div>
       </div>

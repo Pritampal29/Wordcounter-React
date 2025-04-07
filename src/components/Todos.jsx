@@ -1,4 +1,6 @@
 import React from "react";
+import { MdDeleteForever } from "react-icons/md";
+import { FaCheck } from "react-icons/fa";
 
 const Todos = () => {
   return (
@@ -14,14 +16,33 @@ const Todos = () => {
               className="form-control"
               placeholder="Add a new task..."
             />
-            <button className="btn btn-success">Add New Task</button>
+            <button type="submit" className="btn btn-success">
+              Add New Task
+            </button>
           </div>
 
           <ul className="todo-list">
-            <li>✅ Complete project design</li>
-            <li>📧 Respond to client emails</li>
-            <li>🛒 Buy groceries after work</li>
-            <li>📚 Read 10 pages of book</li>
+            <li style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>Respond to client emails</p>
+              <span>
+                <FaCheck
+                  style={{
+                    color: "white",
+                    backgroundColor: "green",
+                    padding: "4px",
+                    borderRadius: "15px",
+                  }}
+                />
+                <MdDeleteForever
+                  style={{
+                    color: "white",
+                    backgroundColor: "red",
+                    padding: "4px",
+                    borderRadius: "15px",
+                  }}
+                />
+              </span>
+            </li>
           </ul>
         </div>
       </div>

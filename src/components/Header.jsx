@@ -51,6 +51,11 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/calculator" className="nav-link">
+                Calculator
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/courses" className="nav-link">
                 Courses
               </Link>
@@ -59,7 +64,7 @@ const Header = () => {
         </nav>
 
         {/* Desktop Mode Switch */}
-        <div className="form-check form-switch d-none d-md-block">
+        {/* <div className="form-check form-switch d-none d-md-block">
           <label htmlFor="modeChecker" style={{ marginTop: "4px" }}>
             Switch Mode
           </label>
@@ -69,7 +74,7 @@ const Header = () => {
             role="switch"
             id="modeChecker"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* Mobile Offcanvas Menu */}
@@ -98,26 +103,51 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link" onClick={handleCloseOffcanvas}>
+              <Link
+                to="/about"
+                className="nav-link"
+                onClick={handleCloseOffcanvas}
+              >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/todos" className="nav-link" onClick={handleCloseOffcanvas}>
+              <Link
+                to="/todos"
+                className="nav-link"
+                onClick={handleCloseOffcanvas}
+              >
                 Todo App
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/word-counter" className="nav-link" onClick={handleCloseOffcanvas}>
+              <Link
+                to="/word-counter"
+                className="nav-link"
+                onClick={handleCloseOffcanvas}
+              >
                 Word Counter
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/courses" className="nav-link" onClick={handleCloseOffcanvas}>
+              <Link
+                to="/calculator"
+                className="nav-link"
+                onClick={handleCloseOffcanvas}
+              >
+                Calculator
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/courses"
+                className="nav-link"
+                onClick={handleCloseOffcanvas}
+              >
                 Courses
               </Link>
             </li>
-            <li className="nav-item mt-3">
+            {/* <li className="nav-item mt-3">
               <div className="form-check form-switch">
                 <label className="form-check-label" htmlFor="modeCheckerMobile">
                   Switch Mode
@@ -129,7 +159,7 @@ const Header = () => {
                   id="modeCheckerMobile"
                 />
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
